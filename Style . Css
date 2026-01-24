@@ -27,16 +27,16 @@ header p {
 
 main {
   padding: 15px;
-  max-width: 800px;
+  max-width: 850px;
   margin: auto;
 }
 
 .card {
   background: white;
-  border-radius: 10px;
+  border-radius: 12px;
   padding: 20px;
   margin-bottom: 20px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
 }
 
 .card h2 {
@@ -66,7 +66,7 @@ ul, ol {
   display: inline-block;
   background-color: #25D366;
   color: white;
-  padding: 15px 25px;
+  padding: 15px 28px;
   border-radius: 30px;
   text-decoration: none;
   font-weight: bold;
