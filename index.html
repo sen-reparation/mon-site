@@ -1,95 +1,112 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Réparation SEN – Assistance Android</title>
-
-  <meta name="description" content="Assistance Android à distance au Sénégal. Diagnostic gratuit, aide honnête et paiement possible par Wave.">
-
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SEN Réparation - Assistance Téléphone à Distance</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        /* Reset et styles de base */
+        * { margin:0; padding:0; box-sizing:border-box; font-family: 'Roboto', sans-serif; }
+        body { line-height:1.6; color:#333; }
+        a { text-decoration:none; color:#fff; }
+        header { background:#0d6efd; color:#fff; padding:20px 0; text-align:center; }
+        header h1 { margin-bottom:10px; }
+        nav a { margin:0 15px; font-weight:700; }
+        section { padding:60px 20px; max-width:1000px; margin:auto; }
+        h2 { text-align:center; margin-bottom:40px; color:#0d6efd; }
+        .btn { background:#0d6efd; color:#fff; padding:12px 25px; border:none; border-radius:5px; cursor:pointer; font-weight:700; }
+        .services, .pricing, .faq, .contact { display:grid; gap:20px; grid-template-columns: repeat(auto-fit, minmax(250px,1fr)); }
+        .card { border:1px solid #ddd; padding:20px; border-radius:10px; text-align:center; box-shadow:0 4px 6px rgba(0,0,0,0.1); }
+        input, textarea { width:100%; padding:10px; margin-bottom:15px; border:1px solid #ccc; border-radius:5px; }
+        footer { background:#333; color:#fff; text-align:center; padding:20px 0; margin-top:40px; }
+        @media(max-width:600px){ nav a { display:block; margin:10px 0; } }
+    </style>
 </head>
-
 <body>
 
-  <header>
-    <h1>📱 Assistance Android à distance</h1>
-    <p>Diagnostic gratuit – aide simple et honnête</p>
-  </header>
+<header>
+    <h1>SEN Réparation</h1>
+    <p>Réparation et assistance téléphone à distance - Rapide & Sécurisé</p>
+    <nav>
+        <a href="#services">Services</a>
+        <a href="#pricing">Tarifs</a>
+        <a href="#faq">FAQ</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
 
-  <main>
+<section id="services">
+    <h2>Nos Services</h2>
+    <div class="services">
+        <div class="card">
+            <h3>Diagnostic Gratuit</h3>
+            <p>Expliquez votre problème et recevez un diagnostic gratuit en 15 minutes via WhatsApp.</p>
+        </div>
+        <div class="card">
+            <h3>Réparation Logicielle</h3>
+            <p>Résolution de bugs, virus, lenteur et autres problèmes logiciels à distance.</p>
+        </div>
+        <div class="card">
+            <h3>Assistance Vidéo</h3>
+            <p>Nous vous guidons par appel vidéo pour résoudre vos problèmes pas à pas.</p>
+        </div>
+    </div>
+</section>
 
-    <section class="card">
-      <h2>💡 Ce que je propose</h2>
-      <p>
-        J’aide les personnes qui ont des problèmes avec leur téléphone Android :
-      </p>
+<section id="pricing">
+    <h2>Nos Tarifs</h2>
+    <div class="pricing">
+        <div class="card">
+            <h3>Diagnostic Gratuit</h3>
+            <p>0 FCFA</p>
+        </div>
+        <div class="card">
+            <h3>Réparation Logicielle</h3>
+            <p>3 000 FCFA</p>
+        </div>
+        <div class="card">
+            <h3>Assistance Vidéo</h3>
+            <p>5 000 FCFA</p>
+        </div>
+    </div>
+</section>
 
-      <ul>
-        <li>Téléphone lent ou bloqué</li>
-        <li>Applications qui bugguent</li>
-        <li>Stockage plein</li>
-        <li>Problèmes WhatsApp ou Facebook</li>
-        <li>Réglages Android compliqués</li>
-      </ul>
+<section id="faq">
+    <h2>FAQ</h2>
+    <div class="faq">
+        <div class="card">
+            <h3>Est-ce que ça marche si l'écran est cassé ?</h3>
+            <p>Non, ce service est uniquement pour les problèmes logiciels.</p>
+        </div>
+        <div class="card">
+            <h3>Quels téléphones prenez-vous en charge ?</h3>
+            <p>Android et iPhone, tous modèles récents et anciens.</p>
+        </div>
+        <div class="card">
+            <h3>Comment puis-je payer ?</h3>
+            <p>Wave, Orange Money ou carte bancaire (en ligne).</p>
+        </div>
+    </div>
+</section>
 
-      <p class="highlight">✔️ Diagnostic gratuit</p>
-      <p class="highlight">✔️ Si je ne peux pas aider, tu ne paies rien</p>
-    </section>
+<section id="contact">
+    <h2>Contactez-nous</h2>
+    <form>
+        <input type="text" placeholder="Nom" required>
+        <input type="text" placeholder="Téléphone / WhatsApp" required>
+        <input type="text" placeholder="Modèle du téléphone" required>
+        <textarea placeholder="Décrivez le problème" rows="4" required></textarea>
+        <button class="btn" type="submit">Envoyer</button>
+    </form>
+    <p style="text-align:center; margin-top:10px;">
+        <a href="https://wa.me/2217XXXXXXXX" class="btn">Contacter via WhatsApp</a>
+    </p>
+</section>
 
-    <section class="card">
-      <h2>🔧 Comment ça marche ?</h2>
-      <ol>
-        <li>Tu me contactes sur WhatsApp</li>
-        <li>Je fais un diagnostic gratuit</li>
-        <li>Je t’explique la solution étape par étape</li>
-        <li>Si tu es d’accord, paiement par Wave</li>
-      </ol>
-    </section>
-
-    <section class="card">
-      <h2>🔒 Sécurité & confiance</h2>
-      <p>
-        Aucune demande de mot de passe, de code WhatsApp
-        ou d’informations personnelles.
-      </p>
-      <p>
-        Tu gardes toujours le contrôle de ton téléphone.
-      </p>
-      <p class="small">
-        ℹ️ Assistance à distance : les manipulations sont effectuées par le client lui-même.
-      </p>
-    </section>
-
-    <section class="card">
-      <h2>💳 Paiement</h2>
-      <p>
-        Le paiement se fait <strong>uniquement après le diagnostic</strong>.
-      </p>
-      <p class="highlight">
-        💰 Paiement possible par Wave
-      </p>
-    </section>
-
-    <section class="card contact">
-      <h2>💬 Contact</h2>
-      <p>🎁 Diagnostic Android <strong>100 % gratuit</strong></p>
-
-      <a class="btn" href="https://wa.me/221710822116" target="_blank">
-        Me contacter sur WhatsApp
-      </a>
-
-      <p class="small">
-        📍 Assistance Android au Sénégal
-      </p>
-    </section>
-
-  </main>
-
-  <footer>
-    <p>Service sérieux – respect de la vie privée</p>
-    <p>© 2026 – Réparation SEN</p>
-  </footer>
+<footer>
+    <p>&copy; 2026 SEN Réparation - Tous droits réservés</p>
+</footer>
 
 </body>
-</html>
+  </html>
